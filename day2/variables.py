@@ -1,6 +1,9 @@
 from __future__ import division
+from cProfile import run
+from cmath import exp
+from math import remainder
 from numpy import product
-from pyrsistent import T
+from regex import R
 
 
 1
@@ -54,3 +57,30 @@ product = num_two * num_one
 division = num_one / num_two
 
 #2.4.5
+remainder = num_two / num_one
+
+#2.4.6
+exp = num_one**num_two
+
+#2.4.7
+floor_division = num_one//num_two
+
+#2.5
+#2.5.1
+
+radio = 30
+area_of_circle = 3.1416 * radio ** 2
+print(area_of_circle)
+
+#2.5.2
+
+circumference_of_circle = 3.1416 * 2 * radio
+print(circumference_of_circle)
+
+#2.5.3
+r=input("¿cual es el radio")
+radioA=int(r)
+area=3.1416 * radioA ** 2
+print(area)
+
+#2.6
