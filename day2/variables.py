@@ -31,7 +31,6 @@ print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
-print(type(a1, a2, a3))
 
 2.2
 print(len(first_name))
@@ -46,6 +45,7 @@ num_two = 4
 
 #2.4.1
 total = num_one + num_two
+print(total)
 
 #2.4.2
 diff = num_one + num_two
@@ -78,9 +78,16 @@ circumference_of_circle = 3.1416 * 2 * radio
 print(circumference_of_circle)
 
 #2.5.3
-r=input("¿cual es el radio")
-radioA=int(r)
+radioA=int(radio)
 area=3.1416 * radioA ** 2
 print(area)
 
 #2.6
+first_name2 = input("What is your name")
+last_name2 = input("What is your last name")
+age2 = input("How old are you")
+
+#2.7
+run
+help('keywords')
+
