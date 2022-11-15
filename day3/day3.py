@@ -37,3 +37,29 @@ pi = 3.14
 radius_circle = pi * r1 * r2
 circle_circumference = 2 * pi * r1
 print(radius_circle, circle_circumference)
+
+-8
+x = 20
+y = 2 * x - 2
+slope=y
+print(y)
+
+-9
+y1 = 4
+y2 = 2
+x1 = 6
+x2 = 3
+m = m = y2-y1/x2-x1
+slope=m
+print(m)
+euclidian_distance = (y2-y1 + x2-x1)**0.5 * 2 
+print(euclidian_distance)
+
+-10
+y !=m
+print(y !=m)
+
+-11
+x = 1
+y = x^2 + 6*x + 9
+print(y)
