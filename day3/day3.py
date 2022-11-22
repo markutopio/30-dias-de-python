@@ -60,6 +60,26 @@ y !=m
 print(y !=m)
 
 -11
-x = 1
-y = x^2 + 6*x + 9
-print(y)
+x = 0
+y1 = x^2 + 6*x + 9
+print(y1)
+x2 = 1
+y2 = x2^2 + 6*x2 + 9
+print(y2)
+
+-12
+print(len("dragon"))
+print(len("python"))
+print(len("dragon") != len("python"))
+
+
+-13
+print("on" in "python", "on" in "dragon")
+
+-14
+sentence="course is not full of jargon"
+in_sentence="jargon" in sentence
+print(in_sentence)
+
+-15
+print("on" not  in "python" , "on" not in "dragon")
