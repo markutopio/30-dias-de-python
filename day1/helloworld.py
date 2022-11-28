@@ -29,7 +29,7 @@ print('integer is 1, float is 1.1, complex is 7 - 4j')
 list=("si","no")
 mytuple=("BMW","HONDA","SKODA")
 print(mytuple)
-str("si")
+print(str('Marco'))
 print("boolean is 'true'")
 
 

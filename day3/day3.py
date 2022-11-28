@@ -78,8 +78,30 @@ print("on" in "python", "on" in "dragon")
 
 -14
 sentence="course is not full of jargon"
-in_sentence="jargon" in sentence
-print(in_sentence)
+is_in_sentence="jargon" in sentence
+print(is_in_sentence)
 
 -15
-print("on" not  in "python" , "on" not in "dragon")
+print("on" not  in "python"  "on" not in "dragon")
+
+-16
+is_python_string = "python"
+if "python" in is_python_string:
+    print(is_python_string)
+
+-17
+A= 0
+division= A/2
+print(division)
+
+-18
+floor_division = 7/3
+floor_division != 2.7
+print(floor_division == 2.7)
+
+-19
+Ten = "10"
+print(Ten == "10")
+
+
+
