@@ -1,26 +1,24 @@
-from __future__ import division
+
 from cProfile import run
-from cmath import exp
-from math import remainder
-from numpy import product
-from regex import R
+from calendar import c
+
+#Day 2 of 30 Days of python
 
 
-1
-#Day 2: 30 Days of python programming #1.2
-first_name = "marco" #1.3
-last_name = "palma" #1.4
-full_name = "marco palma" #1.5
-country = "spain" #1.6
-city = "jerez de la frontera" #1.7
-age = "17" #1.8
-year = "2022" #1.9
-is_married = "false" #1.10
-is_true = "yes" #1.11
-is_light_on = "no" #1.12
-a1, a2, a3, = 6, 4, 2 #1.13
+first_name="Marco"
+last_name="De La Rosa"
+full_name="Marco_Palma"
+country="España"
+city="Jerez De La Frontera"
+age=17
+year=2022
+is_married="no"
+is_true="yes"
+is_light_on="no"
+letters="c","d"
 
-2.1
+#level 2
+
 print(type(first_name))
 print(type(last_name))
 print(type(full_name))
@@ -31,63 +29,48 @@ print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
+print(type(letters))
 
-2.2
-print(len(first_name))
 
-2.3
 print(len(first_name))
 print(len(last_name))
 
-2.4
-num_one = 5
-num_two = 4
 
-#2.4.1
-total = num_one + num_two
-print(total)
 
-#2.4.2
-diff = num_one + num_two
+num_one=5 
+num_two=4
 
-#2.4.3
-product = num_two * num_one
+num_total=num_one+num_two
+print(num_total)
 
-#2.4.4
-division = num_one / num_two
+num_diff=num_one-num_two
+print(num_diff)
 
-#2.4.5
-remainder = num_two / num_one
+num_product=num_one * num_two
+print(num_product)
 
-#2.4.6
-exp = num_one**num_two
+num_divide=num_one/num_two
+print(num_divide)
 
-#2.4.7
-floor_division = num_one//num_two
+num_exp=num_two**num_one
+print(num_exp)
 
-#2.5
-#2.5.1
+division_floor=num_one//num_two
+print(division_floor)
 
-radio = 30
-area_of_circle = 3.1416 * radio ** 2
+
+radius=30
+area_of_circle=3.14 * radius**2
 print(area_of_circle)
 
-#2.5.2
-
-circumference_of_circle = 3.1416 * 2 * radio
+circumference_of_circle=2 * 3.14 * radius
 print(circumference_of_circle)
 
-#2.5.3
-radioA=int(radio)
-area=3.1416 * radioA ** 2
+
+r=input("¿cual es el radio?")
+r2= int(r)
+area=3.14 * r2 ** 2
 print(area)
 
-#2.6
-first_name2 = input("What is your name")
-last_name2 = input("What is your last name")
-age2 = input("How old are you")
-
-#2.7
-run
+run 
 help('keywords')
-
