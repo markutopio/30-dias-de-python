@@ -8,6 +8,7 @@ print('Floating point number, height', 1.72)
 
 -3
 complex = (6 + 4j)
+complex = 6 + 4j
 print('complex number: ', 6 + 4j)
 
 -4
@@ -112,6 +113,9 @@ hs = int(input("Enter the hours"))
 rph = int(input("Enter the rate of hour"))
 aws = hs * rph
 
+
+Ten = "10"
+print(Ten == "10")
 
 
 
