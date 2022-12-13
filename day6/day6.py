@@ -13,3 +13,5 @@ print(len(siblings))
 parents = "Maria", "Daniel"
 family_members = siblings + parents
 print(family_members)
+
+-6
