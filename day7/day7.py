@@ -40,9 +40,4 @@ A.symmetric_difference(B)
 del A
 del B
 del it_companies
-<<<<<<< HEAD
 del age
-=======
-del age
-
->>>>>>> 4a744b574c3d5b0bbf917a81174b122927248b0c
