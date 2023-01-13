@@ -16,3 +16,28 @@ it_companies.update(["Tiktok", "Omegle", "Linux"]) #si no se pone con [] las com
 
 -4
 it_companies.remove("Twitter")
+
+-5
+C = A.union(B)
+print(C)
+
+-6
+A.intersection(B)
+
+-7
+A.issubset(B)
+
+-8
+A.isdisjoint(B)
+
+-9 
+print(A.update(B) and B.update(A))
+
+-10
+A.symmetric_difference(B)
+
+-11
+del A
+del B
+del it_companies
+del age
