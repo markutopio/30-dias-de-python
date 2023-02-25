@@ -1,4 +1,4 @@
-
+import math
 -1
 def add_two_numbers(a,b):
     return a + b
@@ -32,14 +32,6 @@ def check_season(mes):
         return("Winter")
 
 
--6
-def calculate_slope(x1, x2):
-    return x2 + x1
-
--7
-def solve_quadratic_eqn(x1,x2,x3):
-    solve = x2 * x2 -4 * x1 * x3 / 2 * x1
-    return solve
 
 -8
 def print_list(lss):
@@ -53,4 +45,41 @@ def reverse_list(lia):
 
 
 -10
+def capitalize_list_items(x):
+    for i in x:
+        x[x.index(i)] = i.capitalize()
 
+-11
+def add_item(lss, ff):
+    lss.append(ff)
+    return lss
+
+-12
+def remove_item(lsx,fa):
+    lsx.remove(fa)
+    return lsx
+
+-13
+def sum_of_numbers(d):
+    sum_of_numbers = 0
+    for i in range(d+1):
+        sum_of_numbers = sum_of_numbers + 1
+    return sum_of_numbers
+
+
+-1
+def is_prime(b):
+    if b <= 1:
+        return False
+    
+    div = math.floor(math.sqrt(b))
+    for i in range(2, 1+ div):
+        if b % i == 0:
+            return False
+        
+    return True
+
+
+-2
+def check_a_list(lsi):
+    return len(set(lsi)) == len(lsi)
